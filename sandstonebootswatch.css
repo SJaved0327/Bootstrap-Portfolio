@@ -5473,7 +5473,7 @@ button.list-group-item-danger.active:focus {
 .panel-title {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 24px;
   color: inherit;
 }
 .panel-title > a,
@@ -6907,4 +6907,10 @@ input:focus,
 .panel-default .panel-title,
 .panel-default .panel-footer {
   color: #98978b;
+}
+
+.copyright{
+  text-align: center;
+  padding: 15px;
+  font-size: 12px;
 }
