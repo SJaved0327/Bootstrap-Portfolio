@@ -5821,13 +5821,16 @@ button.list-group-item-danger.active:focus {
 }
 .well {
   min-height: 20px;
-  padding: 19px;
+  padding: 20px;
   margin-bottom: 20px;
   background-color: #f8f5f0;
-  border: 1px solid transparent;
+  border: 1px solid;
+  border-color: #dfd7ca;
+  color: #98978b;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  text-align: center;
 }
 .well blockquote {
   border-color: #ddd;
@@ -6909,8 +6912,31 @@ input:focus,
   color: #98978b;
 }
 
+/* custom css */
+
 .copyright{
-  text-align: center;
   padding: 15px;
   font-size: 12px;
+  color: #fff;
+  text-align: center;
 }
+
+.social {
+  width: 62px;
+  height: 62px;
+  margin-top: 8px;
+  margin-right: 5px;
+}
+
+.about-text {
+  line-height: 24px;
+}
+
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
