@@ -6940,3 +6940,9 @@ input:focus,
   margin-right: 25px;
 }
 
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
+
